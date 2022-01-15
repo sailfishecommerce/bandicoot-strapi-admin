@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_shared_array",
+  "info": {
+    "name": "array",
+    "icon": "hashtag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "value": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tab-three",
+      "handler": "tab-three.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tab-three",
+      "handler": "tab-three.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tab-three",
+      "handler": "tab-three.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

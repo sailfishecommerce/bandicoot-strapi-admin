@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/tab-one",
+      "handler": "tab-one.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/tab-one",
+      "handler": "tab-one.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/tab-one",
+      "handler": "tab-one.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

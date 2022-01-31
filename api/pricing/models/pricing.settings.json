@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pricings",
+  "info": {
+    "name": "Pricing"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Category": {
+      "type": "string"
+    },
+    "monthly_price": {
+      "type": "integer"
+    },
+    "annual_price": {
+      "type": "integer"
+    },
+    "description": {
+      "type": "text"
+    },
+    "Features": {
+      "type": "json"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/statistics-counters",
+      "handler": "statistics-counter.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/statistics-counters/count",
+      "handler": "statistics-counter.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/statistics-counters/:id",
+      "handler": "statistics-counter.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/statistics-counters",
+      "handler": "statistics-counter.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/statistics-counters/:id",
+      "handler": "statistics-counter.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/statistics-counters/:id",
+      "handler": "statistics-counter.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

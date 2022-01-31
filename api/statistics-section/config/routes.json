@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/statistics-section",
+      "handler": "statistics-section.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/statistics-section",
+      "handler": "statistics-section.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/statistics-section",
+      "handler": "statistics-section.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

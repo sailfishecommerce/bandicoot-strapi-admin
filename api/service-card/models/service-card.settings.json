@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "service_cards",
+  "info": {
+    "name": "Service-card"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Service_title_1": {
+      "type": "string"
+    },
+    "Section_description_1": {
+      "type": "text"
+    },
+    "Section_title_2": {
+      "type": "string"
+    },
+    "Section_description_2": {
+      "type": "text"
+    },
+    "Section_title_3": {
+      "type": "string"
+    },
+    "Section_description_3": {
+      "type": "text"
+    },
+    "Section_title_4": {
+      "type": "string"
+    },
+    "Section_description_4": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "statistics_counters",
+  "info": {
+    "name": "Statistics-counter"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "category": {
+      "type": "string"
+    },
+    "count": {
+      "type": "integer"
+    }
+  }
+}

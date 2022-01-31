@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "services",
+  "info": {
+    "name": "Service"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Section_title": {
+      "type": "string"
+    },
+    "Section_description": {
+      "type": "text"
+    },
+    "Section_button_text": {
+      "type": "string"
+    },
+    "Service_title_1": {
+      "type": "string"
+    },
+    "Service_list_description": {
+      "type": "text"
+    },
+    "Service_list_title_2": {
+      "type": "string"
+    },
+    "Service_list_description_2": {
+      "type": "text"
+    },
+    "Service_list_title_3": {
+      "type": "string"
+    },
+    "Service_list_description_3": {
+      "type": "text"
+    },
+    "Service_list_title_4": {
+      "type": "string"
+    },
+    "Service_list_description_4": {
+      "type": "text"
+    }
+  }
+}

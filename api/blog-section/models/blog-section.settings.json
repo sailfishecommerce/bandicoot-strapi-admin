@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "blog_sections",
+  "info": {
+    "name": "Blog-Section"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

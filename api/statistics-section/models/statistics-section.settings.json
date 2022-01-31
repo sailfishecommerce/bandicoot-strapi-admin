@@ -1,0 +1,22 @@
+{
+  "kind": "singleType",
+  "collectionName": "statistics_sections",
+  "info": {
+    "name": "Statistics-Section",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

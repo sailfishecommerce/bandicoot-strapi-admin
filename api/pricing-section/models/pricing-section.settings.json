@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "pricing_sections",
+  "info": {
+    "name": "Pricing-Section"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Caption": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_heroes",
+  "info": {
+    "name": "Page hero"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "caption": {
+      "type": "string"
+    },
+    "main_text": {
+      "type": "string"
+    },
+    "text_description": {
+      "type": "string"
+    },
+    "button_text": {
+      "type": "string"
+    },
+    "hero_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

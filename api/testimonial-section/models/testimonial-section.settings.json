@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "testimonial_sections",
+  "info": {
+    "name": "Testimonial-section"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button_text": {
+      "type": "string"
+    }
+  }
+}

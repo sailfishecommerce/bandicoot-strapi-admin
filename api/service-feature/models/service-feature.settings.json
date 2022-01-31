@@ -1,9 +1,8 @@
 {
-  "kind": "singleType",
-  "collectionName": "services",
+  "kind": "collectionType",
+  "collectionName": "service_features",
   "info": {
-    "name": "Service-Section",
-    "description": ""
+    "name": "Service-feature"
   },
   "options": {
     "increments": true,
@@ -17,9 +16,6 @@
     },
     "Description": {
       "type": "text"
-    },
-    "Button_text": {
-      "type": "string"
     }
   }
 }

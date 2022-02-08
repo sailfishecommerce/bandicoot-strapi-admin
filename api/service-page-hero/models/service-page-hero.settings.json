@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "service_page_heroes",
+  "info": {
+    "name": "Service-page-hero"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "hero_text": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    }
+  }
+}

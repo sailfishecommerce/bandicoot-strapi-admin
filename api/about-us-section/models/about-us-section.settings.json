@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_us_sections",
+  "info": {
+    "name": "about-us-section"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "caption": {
+      "type": "string"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

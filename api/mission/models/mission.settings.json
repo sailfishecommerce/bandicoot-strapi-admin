@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "missions",
+  "info": {
+    "name": "mission"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "section_title": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "button_text": {
+      "type": "string"
+    }
+  }
+}

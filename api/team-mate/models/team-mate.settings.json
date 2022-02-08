@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "team_mates",
+  "info": {
+    "name": "team-mate"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "profile_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    },
+    "name": {
+      "type": "string"
+    },
+    "job_role": {
+      "type": "string"
+    }
+  }
+}

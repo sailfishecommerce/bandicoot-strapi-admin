@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/about-us-page-hero",
+      "handler": "about-us-page-hero.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/about-us-page-hero",
+      "handler": "about-us-page-hero.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/about-us-page-hero",
+      "handler": "about-us-page-hero.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

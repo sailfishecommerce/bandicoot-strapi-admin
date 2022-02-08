@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/team-mates",
+      "handler": "team-mate.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/team-mates/count",
+      "handler": "team-mate.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/team-mates/:id",
+      "handler": "team-mate.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/team-mates",
+      "handler": "team-mate.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/team-mates/:id",
+      "handler": "team-mate.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/team-mates/:id",
+      "handler": "team-mate.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

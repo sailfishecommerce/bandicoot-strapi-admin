@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/schedule-consultation",
+      "handler": "schedule-consultation.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/schedule-consultation",
+      "handler": "schedule-consultation.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/schedule-consultation",
+      "handler": "schedule-consultation.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

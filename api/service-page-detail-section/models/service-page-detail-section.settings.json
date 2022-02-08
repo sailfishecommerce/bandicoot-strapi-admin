@@ -1,0 +1,54 @@
+{
+  "kind": "singleType",
+  "collectionName": "service_page_detail_sections",
+  "info": {
+    "name": "Service-page-detail-section"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "section_title": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "tag_text_1": {
+      "type": "string"
+    },
+    "tag_text_2": {
+      "type": "string"
+    },
+    "tag_text_3": {
+      "type": "string"
+    },
+    "tag_1": {
+      "type": "string"
+    },
+    "tag_2": {
+      "type": "string"
+    },
+    "tag_3": {
+      "type": "string"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {}
+    }
+  }
+}

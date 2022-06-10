@@ -18,6 +18,15 @@
     "slug": {
       "type": "uid",
       "targetField": "tabTitle"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "CaseStudyList": {
+      "type": "richtext"
     }
   }
 }

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/casestudy-tabs",
+      "handler": "casestudy-tab.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/casestudy-tabs/count",
+      "handler": "casestudy-tab.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/casestudy-tabs/:id",
+      "handler": "casestudy-tab.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/casestudy-tabs",
+      "handler": "casestudy-tab.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/casestudy-tabs/:id",
+      "handler": "casestudy-tab.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/casestudy-tabs/:id",
+      "handler": "casestudy-tab.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

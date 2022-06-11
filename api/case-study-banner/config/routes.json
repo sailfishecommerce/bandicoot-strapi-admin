@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/case-study-banner",
+      "handler": "case-study-banner.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/case-study-banner",
+      "handler": "case-study-banner.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/case-study-banner",
+      "handler": "case-study-banner.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

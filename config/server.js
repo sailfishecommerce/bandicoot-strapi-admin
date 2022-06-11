@@ -1,9 +1,10 @@
+// server.js
 module.exports = ({ env }) => ({
-  host: env('HOST', '0.0.0.0'),
-  port: env.int('PORT', 1337),
+  host: env("HOST", "0.0.0.0"),
+  port: env.int("PORT", 1337),
   admin: {
     auth: {
-      secret: env('ADMIN_JWT_SECRET', '8cde50dac72e42396bde48263da251e9'),
+      secret: env("ADMIN_JWT_SECRET", "8cde50dac72e42396bde48263da251e9"),
     },
   },
 });

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/case-study-cards",
+      "handler": "case-study-card.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/case-study-cards/count",
+      "handler": "case-study-card.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/case-study-cards/:id",
+      "handler": "case-study-card.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/case-study-cards",
+      "handler": "case-study-card.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/case-study-cards/:id",
+      "handler": "case-study-card.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/case-study-cards/:id",
+      "handler": "case-study-card.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
